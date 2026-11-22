@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DIGITAL ONE — Ajarn Go's research notes and long-term perspective on digital financial infrastructure, interoperability, and OES.">
+  <title>DIGITAL ONE | Ajarn Go</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#08111f;--panel:#101d30;--panel2:#14243a;--ink:#eef4ff;--muted:#a9b8ce;--gold:#d9b56d;--line:#263751;--cyan:#8fd7df}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,"Noto Sans Thai",sans-serif;line-height:1.65}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)}
+    .brand{font-weight:800;letter-spacing:.16em}.brand span{color:var(--gold)}.links{display:flex;gap:22px;color:var(--muted);font-size:.9rem}.links a:hover{color:var(--gold)}
+    .hero{padding:100px 0 82px;max-width:850px}.eyebrow{color:var(--gold);letter-spacing:.2em;text-transform:uppercase;font-size:.78rem;font-weight:700}
+    h1{font-size:clamp(2.7rem,7vw,5.8rem);line-height:1.02;letter-spacing:-.055em;margin:18px 0}.hero p{font-size:1.15rem;color:var(--muted);max-width:730px}
+    .byline{margin-top:28px;color:var(--cyan);font-weight:600}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+    .btn{padding:12px 18px;border:1px solid var(--gold);border-radius:6px;font-weight:700}.btn.primary{background:var(--gold);color:#111827}
+    section{padding:68px 0;border-top:1px solid var(--line)}h2{font-size:clamp(1.8rem,4vw,2.6rem);margin:0 0 14px;letter-spacing:-.03em}
+    .lead{color:var(--muted);max-width:760px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:24px}.card h3{margin:0 0 10px;color:var(--gold)}.card p{margin:0;color:var(--muted)}
+    .timeline{border-left:1px solid var(--gold);margin:30px 0 0 8px;padding-left:24px}.event{margin:0 0 24px}.year{color:var(--gold);font-weight:800}
+    .notice{background:var(--panel2);border-left:3px solid var(--cyan);padding:20px 22px;border-radius:5px;color:var(--muted);margin-top:24px}
+    .thai{font-family:"Noto Sans Thai",Inter,sans-serif}.footer{padding:35px 0;color:var(--muted);font-size:.88rem;border-top:1px solid var(--line)}
+    .lang{border:1px solid var(--line);background:transparent;color:var(--ink);padding:7px 10px;border-radius:5px;cursor:pointer}
+    [data-lang="th"] .en{display:none}[data-lang="en"] .th{display:none}
+    @media(max-width:760px){.links{display:none}.grid{grid-template-columns:1fr}.hero{padding:70px 0 60px}}
+  </style>
+</head>
+<body data-lang="en">
+<header class="wrap nav">
+  <a class="brand" href="#">DIGITAL <span>ONE</span></a>
+  <nav class="links"><a href="#vision">Vision</a><a href="#research">Research</a><a href="#timeline">Timeline</a><a href="#about">About</a></nav>
+  <button class="lang" id="langBtn" aria-label="Switch language">ไทย</button>
+</header>
+<main>
+  <div class="wrap">
+    <section class="hero" style="border:0">
+      <div class="eyebrow">A long-term perspective · Since 2015</div>
+      <div class="en">
+        <h1>THE NEXT<br><span style="color:var(--gold)">FINANCIAL</span><br>CONNECTIVITY.</h1>
+        <p>Exploring how digital financial infrastructure could connect national payment systems, banks, tokenized assets, and future forms of digital money.</p>
+        <div class="byline">By Ajarn Go (Krittanai Temsaphaiboon)</div>
+        <div class="actions"><a class="btn primary" href="#vision">Explore the vision</a><a class="btn" href="#research">Research notes</a></div>
+      </div>
+      <div class="th thai">
+        <h1>อนาคตของ<br><span style="color:var(--gold)">โครงสร้าง</span><br>การเงินดิจิทัล</h1>
+        <p>ศึกษาความเป็นไปได้ในการเชื่อมโยงระบบการชำระเงินระดับประเทศ ธนาคาร สินทรัพย์โทเคน และรูปแบบเงินดิจิทัลในอนาคต</p>
+        <div class="byline">โดย อาจารย์โก้ (กฤตนัย เต็มทรัพย์ไพบูลูรณ์)</div>
+        <div class="actions"><a class="btn primary" href="#vision">สำรวจวิสัยทัศน์</a><a class="btn" href="#research">บันทึกการศึกษา</a></div>
+      </div>
+    </section>
+
+    <section id="vision">
+      <div class="en"><div class="eyebrow">01 / The vision</div><h2>A financial highway for an interconnected world.</h2><p class="lead">National systems may retain their own currencies and rules while becoming more interoperable through shared standards, trusted settlement arrangements, and resilient payment infrastructure.</p></div>
+      <div class="th thai"><div class="eyebrow">01 / วิสัยทัศน์</div><h2>ทางหลวงทางการเงินสำหรับโลกที่เชื่อมต่อกัน</h2><p class="lead">ระบบการเงินของแต่ละประเทศอาจยังคงใช้สกุลเงินและกฎเกณฑ์ของตนเอง แต่สามารถเชื่อมต่อกันได้มากขึ้นผ่านมาตรฐานร่วม กลไกการชำระดุลที่น่าเชื่อถือ และโครงสร้างพื้นฐานการชำระเงินที่มีความยืดหยุ่น</p></div>
+      <div class="grid">
+        <article class="card"><h3>Interoperability</h3><p>How different payment networks and token systems can communicate across borders.</p></article>
+        <article class="card"><h3>Settlement</h3><p>How institutions may coordinate clearing, settlement, liquidity, and risk controls.</p></article>
+        <article class="card"><h3>Resilience</h3><p>Why reliability, governance, cybersecurity, and offline continuity matter.</p></article>
+      </div>
+    </section>
+
+    <section id="research">
+      <div class="en"><div class="eyebrow">02 / Research focus</div><h2>Questions worth investigating.</h2><p class="lead">This project examines public information, technical designs, institutional announcements, and the gaps between a proposed vision and real-world adoption.</p></div>
+      <div class="th thai"><div class="eyebrow">02 / ประเด็นศึกษา</div><h2>คำถามที่ควรตรวจสอบ</h2><p class="lead">โครงการนี้ศึกษาข้อมูลสาธารณะ แบบจำลองทางเทคนิค ประกาศจากสถาบันต่าง ๆ และความแตกต่างระหว่างวิสัยทัศน์ที่นำเสนอ กับการนำไปใช้งานจริง</p></div>
+      <div class="grid">
+        <article class="card"><h3>CBDCs & Payments</h3><p>Developments in central bank digital currencies and cross-border payment connectivity.</p></article>
+        <article class="card"><h3>Tokenized Money</h3><p>Deposit tokens, stablecoins, and the standards needed for safe interoperability.</p></article>
+        <article class="card"><h3>OES / ONE Ecosystem</h3><p>A research topic and hypothesis whose technology, governance, institutional relationships, and adoption require independent verification.</p></article>
+      </div>
+      <div class="notice"><strong>Research standard:</strong> This website distinguishes verified facts, official announcements, informed interpretations, and personal hypotheses. Mentioning an institution or technology does not imply endorsement, partnership, or adoption.</div>
+    </section>
+
+    <section id="timeline">
+      <div class="en"><div class="eyebrow">03 / Timeline</div><h2>A developing research journey.</h2><p class="lead">The author identifies 2015 as the beginning of his personal tracking of OES / ONE Ecosystem and broader financial-system developments. Specific historical claims will be supported with dated records where available.</p></div>
+      <div class="th thai"><div class="eyebrow">03 / ลำดับเวลา</div><h2>เส้นทางการศึกษาที่ต่อเนื่อง</h2><p class="lead">ผู้เขียนระบุว่าปี 2015 เป็นจุดเริ่มต้นของการติดตาม OES / ONE Ecosystem และพัฒนาการของระบบการเงินในภาพใหญ่ โดยข้อกล่าวอ้างทางประวัติศาสตร์จะอ้างอิงเอกสารที่มีวันที่กำกับเมื่อสามารถตรวจสอบได้</p></div>
+      <div class="timeline">
+        <div class="event"><div class="year">2015</div><div class="en">Beginning of the author's long-term interest and tracking.</div><div class="th thai">จุดเริ่มต้นความสนใจและการติดตามของผู้เขียน</div></div>
+        <div class="event"><div class="year">2015–Present</div><div class="en">Observing digital finance, payment infrastructure, and OES-related developments.</div><div class="th thai">ติดตามการเงินดิจิทัล โครงสร้างพื้นฐานการชำระเงิน และพัฒนาการที่เกี่ยวข้องกับ OES</div></div>
+        <div class="event"><div class="year">Next</div><div class="en">Publish dated sources, technical reviews, and evidence-based updates.</div><div class="th thai">เผยแพร่แหล่งข้อมูลที่มีวันที่ บทวิเคราะห์ทางเทคนิค และความคืบหน้าที่อิงหลักฐาน</div></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="en"><div class="eyebrow">04 / About the author</div><h2>Ajarn Go</h2><p class="lead">Krittanai Temsaphaiboon is an independent observer documenting a long-term personal research journey into digital finance and the possible future of interconnected financial infrastructure.</p></div>
+      <div class="th thai"><div class="eyebrow">04 / เกี่ยวกับผู้เขียน</div><h2>อาจารย์โก้</h2><p class="lead">กฤตนัย เต็มทรัพย์ไพบูลูรณ์ เป็นผู้สนใจศึกษาและบันทึกเส้นทางการติดตามเรื่องการเงินดิจิทัลในระยะยาว รวมถึงความเป็นไปได้ของโครงสร้างพื้นฐานทางการเงินที่เชื่อมโยงถึงกัน</p></div>
+      <div class="notice">The views on this website are the author's personal research and opinions. They are not financial, legal, or investment advice. No future value, listing, partnership, institutional recognition, or adoption of OES is represented as guaranteed.</div>
+    </section>
+  </div>
+</main>
+<footer class="wrap footer">© <span id="year"></span> DIGITAL ONE · Ajarn Go. Independent research and documentation.</footer>
+<script>
+  const btn=document.getElementById('langBtn');
+  document.getElementById('year').textContent=new Date().getFullYear();
+  btn.addEventListener('click',()=>{const th=document.body.dataset.lang==='en';document.body.dataset.lang=th?'th':'en';btn.textContent=th?'English':'ไทย';});
+</script>
+</body>
+</html>
